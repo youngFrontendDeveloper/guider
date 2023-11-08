@@ -1,0 +1,7 @@
+@use "../../styles/variables" as variable;
+
+.header {
+  flex: 0 0 auto; // Для прижатия Футера к низу
+  height: 100px;
+  background-color: variable.$color-white; // Просто для примера, как подключать цвет
+}
